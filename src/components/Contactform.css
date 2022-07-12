@@ -1,0 +1,31 @@
+label{
+    color: aliceblue;
+}
+
+.Form  form{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+.Form form input ,.Form form textarea{
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: aliceblue;
+    color: aliceblue;
+    border-radius: 4px;
+}
+
+.Form .btn{
+    border-radius: 4px;
+    float: right;
+    align-content: right;
+    align-items: right;
+    margin: 10px;
+    height: auto;
+    width: 10rem;
+}

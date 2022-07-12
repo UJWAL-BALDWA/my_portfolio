@@ -1,0 +1,88 @@
+.mask{
+    width: 100%;
+    height: 120vh;
+    position: relative;
+
+}
+.intro-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin: 0px;
+}
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+    
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+}
+
+.hero .content{
+    position: absolute ;
+    transform: translate(-50% , -50%);
+    top: 60%;
+    left: 50%;
+    text-align: center;
+}
+
+.hero .content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero .content p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.content .btn , .btn-light{
+    margin: 1rem 0.5rem;
+    border-radius: 4px;
+}
+
+.App {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width : 800px){
+     .hero .content h1 {
+            transition: 0.9s;
+            font-size: 2rem;
+            text-align: center;
+           
+        }
+    
+        .hero .content p {
+            font-size: 1.0rem;
+            transition: 0.s;
+
+        }
+
+        .App {
+            font-size: 1.2rem;
+        }
+    }
+
+    

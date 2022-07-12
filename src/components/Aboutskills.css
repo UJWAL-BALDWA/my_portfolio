@@ -1,0 +1,58 @@
+.about .skills {
+    padding-top: 10px;
+    justify-content: left;
+    color: white;
+    font-size:xx-large;
+    
+    
+}
+
+.about .skill-name {
+    margin: 0.5rem;
+}
+
+.about .skill-name p {
+    display: inline-block;
+    padding-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FF6F61;
+}
+
+.about .skill-name p:last-child {
+    float: right;
+}
+
+.about .progress {
+    
+    border: 3px solid #ff0000;
+    border-radius: 50px;
+    background: #ffffff;
+    width :500px;
+    color: #ffffff;
+    
+}
+
+.about .progress-bar {
+    height: 22px;
+    border-radius: 50px;
+    transition: 1s;
+    padding:0px;
+    align-content: center;
+    
+}
+
+@media screen and (max-width: 650px) {
+    .about .progress{
+        width: 250px;
+        height: 100%;
+        transition: 1s;
+        margin: 0px;
+        align-items: center;
+        align-content: center;
+    }
+        .about .skill-name p {
+            font-size: 13px;
+            padding-top: 20px;
+        }
+}
