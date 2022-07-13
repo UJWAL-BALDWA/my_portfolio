@@ -80,12 +80,11 @@ const Footer = () => {
               />
             </a>
 
-            <a href="">
+            <a href="https://wa.me/917022874220?text=Hiiii">
               <FaWhatsapp
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
-                number="+91-7022874220"
-              />
+                />
             </a>
 
             <a href="https://www.linkedin.com/in/ujwal-baldwa-02ab521a2">
